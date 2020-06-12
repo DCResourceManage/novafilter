@@ -1,0 +1,37 @@
+{
+    "Servers": {
+        "p0_r0_s0": [
+            10,
+            100
+        ],
+        "p0_r0_s1": [
+            20,
+            100
+        ],
+        "p0_r1_s0": [
+            10,
+            100
+        ],
+        "p0_r1_s1": [
+            20,
+            100
+        ],
+        "p1_r0_s0": [
+            10,
+            100
+        ],
+        "p1_r0_s1": [
+            30,
+            100
+        ],
+        "p1_r1_s0": [
+            10,
+            100
+        ],
+        "p1_r1_s1": [
+            20,
+            100
+        ]
+    },
+    "Comments": "*Servers* describes server capacities. It has following format: [cpu, mem]. For example, [10, 100] means the server has 12 cores and 100 GB of RAM."
+}

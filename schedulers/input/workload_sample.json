@@ -1,0 +1,163 @@
+{
+	"tick_0": [{
+			"type": "create",
+			"vdc_uuid": "vdc1",
+			"vm_uuid": "vdc1-vm1",
+			"cores": 2.0,
+			"ram_in_gb": 17.0
+		},
+		{
+			"type": "create",
+			"vdc_uuid": "vdc1",
+			"vm_uuid": "vdc1-vm2",
+			"cores": 1.0,
+			"ram_in_gb": 7.0
+		},
+		{
+			"type": "create",
+			"vdc_uuid": "vdc1",
+			"vm_uuid": "vdc1-vm3",
+			"cores": 1.0,
+			"ram_in_gb": 8.0
+		},
+		{
+			"type": "create",
+			"vdc_uuid": "vdc1",
+			"vm_uuid": "vdc1-vm4",
+			"cores": 1.0,
+			"ram_in_gb": 0.75
+		}
+	],
+	"tick_1": [{
+		"type": "create",
+		"vdc_uuid": "vdc2",
+		"vm_uuid": "vdc2-vm1",
+		"cores": 4.0,
+		"ram_in_gb": 7.0
+	}],
+	"tick_2": [{
+		"type": "create",
+		"vdc_uuid": "vdc2",
+		"vm_uuid": "vdc2-vm2",
+		"cores": 4.0,
+		"ram_in_gb": 7.0
+	}],
+	"tick_3": [{
+			"type": "delete",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm2"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm1"
+		},
+		{
+			"type": "create",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm3",
+			"cores": 8.0,
+			"ram_in_gb": 14.0
+		}
+	],
+	"tick_4": [{
+			"type": "create",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm4",
+			"cores": 8.0,
+			"ram_in_gb": 14.0
+		},
+		{
+			"type": "create",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm5",
+			"cores": 31.0,
+			"ram_in_gb": 14.0
+		},
+		{
+			"type": "create",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm6",
+			"cores": 2.0,
+			"ram_in_gb": 3.5
+		}
+	],
+	"tick_5": [{
+		"type": "create",
+		"vdc_uuid": "vdc2",
+		"vm_uuid": "vdc2-vm7",
+		"cores": 8.0,
+		"ram_in_gb": 14.0
+	}],
+	"tick_6": [{
+		"type": "create",
+		"vdc_uuid": "vdc2",
+		"vm_uuid": "vdc2-vm8",
+		"cores": 4.0,
+		"ram_in_gb": 7.0
+	}],
+	"tick_7": [{
+		"type": "create",
+		"vdc_uuid": "vdc2",
+		"vm_uuid": "vdc2-vm9",
+		"cores": 4.0,
+		"ram_in_gb": 7.0
+	}],
+	"tick_8": [{
+			"type": "delete",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm8"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm9"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm6"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm7"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm3"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm5"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc2",
+			"vm_uuid": "vdc2-vm4"
+		}
+	],
+	"tick_9": [{
+			"type": "delete",
+			"vdc_uuid": "vdc1",
+			"vm_uuid": "vdc1-vm4"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc1",
+			"vm_uuid": "vdc1-vm3"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc1",
+			"vm_uuid": "vdc1-vm2"
+		},
+		{
+			"type": "delete",
+			"vdc_uuid": "vdc1",
+			"vm_uuid": "vdc1-vm1"
+		}
+	]
+}
